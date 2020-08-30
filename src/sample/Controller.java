@@ -8,11 +8,13 @@ import javafx.scene.control.TextField;
 public class Controller {
     @FXML
     private TextArea tArea;
+    @FXML
     private TextField tField;
 
-    @FXML
+
     public void onSend(ActionEvent actionEvent) {
-        String text = (tField).getText();
+        String text = tField.getText();
         tArea.appendText(text + "\n");
+        tField.clear();
     }
 }

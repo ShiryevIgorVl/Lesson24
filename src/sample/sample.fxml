@@ -11,7 +11,7 @@
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="CENTER" hgap="10" vgap="10">
 
-    <Button fx:id="send" onAction="#onSend" prefHeight="20" prefWidth="50" text="Send" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button fx:id="send" onAction="#onSend" prefHeight="20" prefWidth="50" text="Send" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
     <TextArea fx:id="tArea" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="200" prefHeight="200"/>
     <TextField fx:id="tField" GridPane.columnIndex="0" GridPane.rowIndex="2" prefWidth="200" prefHeight="20"/>
 </GridPane>
