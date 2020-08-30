@@ -1,1 +1,23 @@
-.button
+.button {
+     -fx-background-color: red;
+}
+
+    #send {
+        -fx-background-color: green;
+        }
+
+    .button:hover {
+    -fx-background-color: white;
+    }
+
+    #send:hover {
+        -fx-background-color: white;
+        }
+.text-area {
+  -fx-background-color: red; // внешние границы красные
+   -fx-control-inner-background: gray;
+}
+
+.text-field {
+ -fx-background-color: gray; // внешние границы красные
+ }
